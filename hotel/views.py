@@ -93,8 +93,8 @@ class BookingCreateAPIView(generics.CreateAPIView):
     def post(self, request, *args, **kwargs):
         serializer = self.get_serializer(data=request.data)
         if serializer.is_valid():
-            subject = 'Booking Confirmation'
-            message = 'Your booking has been confirmed.'
+            subject = 'Подтверждение бронирования'
+            message = 'Ваше бронирование подтверждено.'
             recipient_list = [request.user.email]
             send_email_task.delay(subject, message, recipient_list)  
             return Response(serializer.data, status=status.HTTP_201_CREATED)
@@ -135,7 +135,7 @@ class ReviewLikeCreateAPIView(generics.CreateAPIView):
     def perform_create(self, serializer):
         review = self.get_review()
         if review.likes.filter(user=self.request.user).exists():
-            return Response({'message': 'You have already liked this review.'}, status=status.HTTP_400_BAD_REQUEST)
+            return Response({'message': 'Вы уже поставили лайк на  этот отзыв.'}, status=status.HTTP_400_BAD_REQUEST)
         serializer.save()
 
     def get_review(self):
@@ -185,7 +185,7 @@ class HotelLikeCreateAPIView(generics.CreateAPIView):
         hotel_id = self.kwargs.get('hotel_id')
         hotel = get_object_or_404(Hotel, id=hotel_id)
         serializer.save(user=self.request.user, hotel=hotel)
-        hotel.like_count += 1  # Увеличение счетчика лайков
+        hotel.like_count += 1  
         hotel.save()
 
     @log_request

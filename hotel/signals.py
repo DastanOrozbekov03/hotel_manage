@@ -6,7 +6,7 @@ from .models import Booking
 @receiver(post_save, sender=Booking)
 def send_booking_confirmation_email(sender, instance, created, **kwargs):
     if created:
-        subject = 'Booking Confirmation'
-        message = 'Your booking has been confirmed.'
+        subject = 'Подтверждение бронирования'
+        message = 'Ваше бронирование подтверждено.'
         recipient_list = [instance.user.email]
         send_mail(subject, message, from_email=None, recipient_list=recipient_list)
