@@ -5,4 +5,4 @@ pillow
 python-decouple
 python-slugify
 drf-yasg
-
+redis==5.0.3

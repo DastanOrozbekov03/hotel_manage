@@ -1,0 +1,625 @@
+INFO 2024-03-28 12:47:09,650 autoreload Watching for file changes with StatReloader
+INFO 2024-03-28 12:47:21,340 basehttp "GET /api/v1/hotels/ HTTP/1.1" 200 52
+INFO 2024-03-28 12:49:37,446 basehttp "GET /api/v1/hotels/ HTTP/1.1" 200 52
+INFO 2024-03-28 12:49:53,916 basehttp "GET /api/v1/hotels/ HTTP/1.1" 200 52
+INFO 2024-03-28 12:50:28,210 autoreload /home/dastan/Desktop/maker/config/settings.py changed, reloading.
+INFO 2024-03-28 12:50:28,860 autoreload Watching for file changes with StatReloader
+INFO 2024-03-28 13:15:38,988 autoreload Watching for file changes with StatReloader
+INFO 2024-03-28 13:15:47,999 basehttp "GET /docs/ HTTP/1.1" 200 2155
+INFO 2024-03-28 13:15:48,079 basehttp "GET /static/drf-yasg/style.css HTTP/1.1" 200 1047
+INFO 2024-03-28 13:15:48,079 basehttp "GET /static/drf-yasg/insQ.min.js HTTP/1.1" 200 2093
+INFO 2024-03-28 13:15:48,089 basehttp "GET /static/drf-yasg/swagger-ui-init.js HTTP/1.1" 200 14964
+INFO 2024-03-28 13:15:48,090 basehttp "GET /static/drf-yasg/immutable.min.js HTTP/1.1" 200 56904
+INFO 2024-03-28 13:15:48,093 basehttp "GET /static/drf-yasg/swagger-ui-dist/swagger-ui.css HTTP/1.1" 200 145206
+INFO 2024-03-28 13:15:48,095 basehttp "GET /static/drf-yasg/swagger-ui-dist/swagger-ui-standalone-preset.js HTTP/1.1" 200 322863
+INFO 2024-03-28 13:15:48,098 basehttp "GET /static/drf-yasg/swagger-ui-dist/swagger-ui-bundle.js HTTP/1.1" 200 1046583
+INFO 2024-03-28 13:15:48,410 basehttp "GET /static/drf-yasg/swagger-ui-dist/favicon-32x32.png HTTP/1.1" 200 628
+INFO 2024-03-28 13:15:48,426 basehttp "GET /docs/?format=openapi HTTP/1.1" 200 15811
+INFO 2024-03-28 13:22:55,101 autoreload /home/dastan/Desktop/maker/config/settings.py changed, reloading.
+INFO 2024-03-28 13:22:55,897 autoreload Watching for file changes with StatReloader
+INFO 2024-03-28 13:23:02,408 autoreload /home/dastan/Desktop/maker/config/settings.py changed, reloading.
+INFO 2024-03-28 13:23:02,970 autoreload Watching for file changes with StatReloader
+INFO 2024-03-28 13:23:04,391 autoreload /home/dastan/Desktop/maker/config/settings.py changed, reloading.
+INFO 2024-03-28 13:23:04,978 autoreload Watching for file changes with StatReloader
+INFO 2024-03-28 13:24:09,575 autoreload /home/dastan/Desktop/maker/config/settings.py changed, reloading.
+INFO 2024-03-28 13:24:10,115 autoreload Watching for file changes with StatReloader
+INFO 2024-03-28 13:25:33,229 autoreload /home/dastan/Desktop/maker/hotel/views.py changed, reloading.
+INFO 2024-03-28 13:25:33,932 autoreload Watching for file changes with StatReloader
+INFO 2024-03-28 13:25:35,370 autoreload /home/dastan/Desktop/maker/hotel/views.py changed, reloading.
+INFO 2024-03-28 13:25:36,151 autoreload Watching for file changes with StatReloader
+INFO 2024-03-28 13:25:37,651 autoreload /home/dastan/Desktop/maker/hotel/views.py changed, reloading.
+INFO 2024-03-28 13:25:38,179 autoreload Watching for file changes with StatReloader
+INFO 2024-03-28 13:25:45,561 autoreload /home/dastan/Desktop/maker/hotel/views.py changed, reloading.
+INFO 2024-03-28 13:25:46,135 autoreload Watching for file changes with StatReloader
+INFO 2024-03-28 13:25:52,626 autoreload /home/dastan/Desktop/maker/hotel/views.py changed, reloading.
+INFO 2024-03-28 13:25:53,145 autoreload Watching for file changes with StatReloader
+INFO 2024-03-28 13:26:12,692 autoreload /home/dastan/Desktop/maker/hotel/views.py changed, reloading.
+INFO 2024-03-28 13:26:13,260 autoreload Watching for file changes with StatReloader
+INFO 2024-03-28 13:26:14,550 autoreload /home/dastan/Desktop/maker/hotel/views.py changed, reloading.
+INFO 2024-03-28 13:26:15,061 autoreload Watching for file changes with StatReloader
+INFO 2024-03-28 13:26:17,306 autoreload /home/dastan/Desktop/maker/hotel/views.py changed, reloading.
+INFO 2024-03-28 13:26:17,928 autoreload Watching for file changes with StatReloader
+INFO 2024-03-28 13:26:19,205 autoreload /home/dastan/Desktop/maker/hotel/views.py changed, reloading.
+INFO 2024-03-28 13:26:19,692 autoreload Watching for file changes with StatReloader
+INFO 2024-03-28 14:04:17,730 autoreload /home/dastan/Desktop/maker/hotel/views.py changed, reloading.
+INFO 2024-03-28 14:04:18,258 autoreload Watching for file changes with StatReloader
+INFO 2024-03-28 14:04:22,525 autoreload /home/dastan/Desktop/maker/hotel/views.py changed, reloading.
+INFO 2024-03-28 14:04:23,003 autoreload Watching for file changes with StatReloader
+INFO 2024-03-28 14:04:35,418 autoreload /home/dastan/Desktop/maker/hotel/views.py changed, reloading.
+INFO 2024-03-28 14:04:36,022 autoreload Watching for file changes with StatReloader
+INFO 2024-03-28 14:08:25,809 autoreload /home/dastan/Desktop/maker/hotel/views.py changed, reloading.
+INFO 2024-03-28 14:08:26,387 autoreload Watching for file changes with StatReloader
+INFO 2024-03-28 14:08:28,669 autoreload /home/dastan/Desktop/maker/hotel/views.py changed, reloading.
+INFO 2024-03-28 14:08:29,413 autoreload Watching for file changes with StatReloader
+INFO 2024-03-28 14:08:30,650 autoreload /home/dastan/Desktop/maker/hotel/views.py changed, reloading.
+INFO 2024-03-28 14:08:31,188 autoreload Watching for file changes with StatReloader
+INFO 2024-03-28 14:08:32,608 autoreload /home/dastan/Desktop/maker/hotel/views.py changed, reloading.
+INFO 2024-03-28 14:08:33,381 autoreload Watching for file changes with StatReloader
+INFO 2024-03-28 14:08:48,825 autoreload /home/dastan/Desktop/maker/hotel/views.py changed, reloading.
+INFO 2024-03-28 14:08:49,401 autoreload Watching for file changes with StatReloader
+INFO 2024-03-28 14:08:50,704 autoreload /home/dastan/Desktop/maker/hotel/views.py changed, reloading.
+INFO 2024-03-28 14:08:51,296 autoreload Watching for file changes with StatReloader
+INFO 2024-03-28 14:08:52,649 autoreload /home/dastan/Desktop/maker/hotel/views.py changed, reloading.
+INFO 2024-03-28 14:08:53,113 autoreload Watching for file changes with StatReloader
+INFO 2024-03-28 14:09:23,024 autoreload /home/dastan/Desktop/maker/hotel/views.py changed, reloading.
+INFO 2024-03-28 14:09:23,575 autoreload Watching for file changes with StatReloader
+INFO 2024-03-28 14:09:32,124 autoreload /home/dastan/Desktop/maker/hotel/views.py changed, reloading.
+INFO 2024-03-28 14:09:32,713 autoreload Watching for file changes with StatReloader
+INFO 2024-03-28 14:09:35,148 autoreload /home/dastan/Desktop/maker/hotel/views.py changed, reloading.
+INFO 2024-03-28 14:09:35,690 autoreload Watching for file changes with StatReloader
+INFO 2024-03-28 14:09:58,517 autoreload /home/dastan/Desktop/maker/hotel/views.py changed, reloading.
+INFO 2024-03-28 14:09:59,063 autoreload Watching for file changes with StatReloader
+INFO 2024-03-28 14:10:41,357 autoreload /home/dastan/Desktop/maker/hotel/views.py changed, reloading.
+INFO 2024-03-28 14:10:41,954 autoreload Watching for file changes with StatReloader
+INFO 2024-03-28 14:13:36,671 basehttp "GET /api/v1/hotels/?page=1 HTTP/1.1" 200 52
+INFO 2024-03-29 07:39:11,206 autoreload Watching for file changes with StatReloader
+INFO 2024-03-29 07:39:34,688 autoreload Watching for file changes with StatReloader
+INFO 2024-03-29 08:27:46,307 autoreload Watching for file changes with StatReloader
+WARNING 2024-03-29 08:29:21,450 log Bad Request: /api/v1/bookings/create/
+WARNING 2024-03-29 08:29:21,451 basehttp "POST /api/v1/bookings/create/ HTTP/1.1" 400 161
+WARNING 2024-03-29 08:30:37,776 log Bad Request: /api/v1/bookings/create/
+WARNING 2024-03-29 08:30:37,776 basehttp "POST /api/v1/bookings/create/ HTTP/1.1" 400 131
+WARNING 2024-03-29 08:31:04,333 log Bad Request: /api/v1/bookings/create/
+WARNING 2024-03-29 08:31:04,333 basehttp "POST /api/v1/bookings/create/ HTTP/1.1" 400 55
+INFO 2024-03-29 08:31:43,694 basehttp "GET /api/v1/hotels/ HTTP/1.1" 200 52
+WARNING 2024-03-29 08:31:56,652 log Bad Request: /api/v1/hotels/create/
+WARNING 2024-03-29 08:31:56,652 basehttp "POST /api/v1/hotels/create/ HTTP/1.1" 400 228
+WARNING 2024-03-29 08:32:40,010 log Bad Request: /api/v1/hotels/create/
+WARNING 2024-03-29 08:32:40,011 basehttp "POST /api/v1/hotels/create/ HTTP/1.1" 400 67
+WARNING 2024-03-29 08:32:54,755 log Bad Request: /api/v1/hotels/create/
+WARNING 2024-03-29 08:32:54,755 basehttp "POST /api/v1/hotels/create/ HTTP/1.1" 400 55
+INFO 2024-03-29 08:33:10,578 basehttp "POST /api/v1/hotels/create/ HTTP/1.1" 201 255
+INFO 2024-03-29 08:33:36,587 basehttp "GET /api/v1/hotels/ HTTP/1.1" 200 307
+INFO 2024-03-29 08:34:00,317 basehttp "GET /api/v1/hotels/ HTTP/1.1" 200 307
+ERROR 2024-03-29 08:34:37,811 log Internal Server Error: /api/v1/bookings/create/
+Traceback (most recent call last):
+  File "/home/dastan/Desktop/maker/venv/lib/python3.10/site-packages/redis/connection.py", line 276, in connect
+    sock = self.retry.call_with_retry(
+  File "/home/dastan/Desktop/maker/venv/lib/python3.10/site-packages/redis/retry.py", line 46, in call_with_retry
+    return do()
+  File "/home/dastan/Desktop/maker/venv/lib/python3.10/site-packages/redis/connection.py", line 277, in <lambda>
+    lambda: self._connect(), lambda error: self.disconnect(error)
+  File "/home/dastan/Desktop/maker/venv/lib/python3.10/site-packages/redis/connection.py", line 639, in _connect
+    raise err
+  File "/home/dastan/Desktop/maker/venv/lib/python3.10/site-packages/redis/connection.py", line 627, in _connect
+    sock.connect(socket_address)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/dastan/Desktop/maker/venv/lib/python3.10/site-packages/celery/backends/redis.py", line 127, in reconnect_on_error
+    yield
+  File "/home/dastan/Desktop/maker/venv/lib/python3.10/site-packages/celery/backends/redis.py", line 177, in _consume_from
+    self._pubsub.subscribe(key)
+  File "/home/dastan/Desktop/maker/venv/lib/python3.10/site-packages/redis/client.py", line 927, in subscribe
+    ret_val = self.execute_command("SUBSCRIBE", *new_channels.keys())
+  File "/home/dastan/Desktop/maker/venv/lib/python3.10/site-packages/redis/client.py", line 756, in execute_command
+    self.connection = self.connection_pool.get_connection(
+  File "/home/dastan/Desktop/maker/venv/lib/python3.10/site-packages/redis/connection.py", line 1104, in get_connection
+    connection.connect()
+  File "/home/dastan/Desktop/maker/venv/lib/python3.10/site-packages/redis/connection.py", line 282, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 111 connecting to localhost:6379. Connection refused.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/dastan/Desktop/maker/venv/lib/python3.10/site-packages/redis/connection.py", line 276, in connect
+    sock = self.retry.call_with_retry(
+  File "/home/dastan/Desktop/maker/venv/lib/python3.10/site-packages/redis/retry.py", line 46, in call_with_retry
+    return do()
+  File "/home/dastan/Desktop/maker/venv/lib/python3.10/site-packages/redis/connection.py", line 277, in <lambda>
+    lambda: self._connect(), lambda error: self.disconnect(error)
+  File "/home/dastan/Desktop/maker/venv/lib/python3.10/site-packages/redis/connection.py", line 639, in _connect
+    raise err
+  File "/home/dastan/Desktop/maker/venv/lib/python3.10/site-packages/redis/connection.py", line 627, in _connect
+    sock.connect(socket_address)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/dastan/Desktop/maker/venv/lib/python3.10/site-packages/kombu/connection.py", line 472, in _reraise_as_library_errors
+    yield
+  File "/home/dastan/Desktop/maker/venv/lib/python3.10/site-packages/celery/app/base.py", line 798, in send_task
+    self.backend.on_task_call(P, task_id)
+  File "/home/dastan/Desktop/maker/venv/lib/python3.10/site-packages/celery/backends/redis.py", line 373, in on_task_call
+    self.result_consumer.consume_from(task_id)
+  File "/home/dastan/Desktop/maker/venv/lib/python3.10/site-packages/celery/backends/redis.py", line 169, in consume_from
+    return self.start(task_id)
+  File "/home/dastan/Desktop/maker/venv/lib/python3.10/site-packages/celery/backends/redis.py", line 147, in start
+    self._consume_from(initial_task_id)
+  File "/home/dastan/Desktop/maker/venv/lib/python3.10/site-packages/celery/backends/redis.py", line 176, in _consume_from
+    with self.reconnect_on_error():
+  File "/usr/lib/python3.10/contextlib.py", line 153, in __exit__
+    self.gen.throw(typ, value, traceback)
+  File "/home/dastan/Desktop/maker/venv/lib/python3.10/site-packages/celery/backends/redis.py", line 130, in reconnect_on_error
+    self._ensure(self._reconnect_pubsub, ())
+  File "/home/dastan/Desktop/maker/venv/lib/python3.10/site-packages/celery/backends/redis.py", line 384, in ensure
+    return retry_over_time(
+  File "/home/dastan/Desktop/maker/venv/lib/python3.10/site-packages/kombu/utils/functional.py", line 318, in retry_over_time
+    return fun(*args, **kwargs)
+  File "/home/dastan/Desktop/maker/venv/lib/python3.10/site-packages/celery/backends/redis.py", line 106, in _reconnect_pubsub
+    metas = self.backend.client.mget(self.subscribed_to)
+  File "/home/dastan/Desktop/maker/venv/lib/python3.10/site-packages/redis/commands/core.py", line 2016, in mget
+    return self.execute_command("MGET", *args, **options)
+  File "/home/dastan/Desktop/maker/venv/lib/python3.10/site-packages/redis/client.py", line 540, in execute_command
+    conn = self.connection or pool.get_connection(command_name, **options)
+  File "/home/dastan/Desktop/maker/venv/lib/python3.10/site-packages/redis/connection.py", line 1104, in get_connection
+    connection.connect()
+  File "/home/dastan/Desktop/maker/venv/lib/python3.10/site-packages/redis/connection.py", line 282, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 111 connecting to localhost:6379. Connection refused.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/dastan/Desktop/maker/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/dastan/Desktop/maker/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/dastan/Desktop/maker/venv/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "/home/dastan/Desktop/maker/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/dastan/Desktop/maker/venv/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/dastan/Desktop/maker/venv/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/dastan/Desktop/maker/venv/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/dastan/Desktop/maker/venv/lib/python3.10/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/dastan/Desktop/maker/hotel/views.py", line 101, in post
+    send_email_task.delay(subject, message, recipient_list)  # Отправка асинхронной задачи Celery
+  File "/home/dastan/Desktop/maker/venv/lib/python3.10/site-packages/celery/app/task.py", line 444, in delay
+    return self.apply_async(args, kwargs)
+  File "/home/dastan/Desktop/maker/venv/lib/python3.10/site-packages/celery/app/task.py", line 594, in apply_async
+    return app.send_task(
+  File "/home/dastan/Desktop/maker/venv/lib/python3.10/site-packages/celery/app/base.py", line 796, in send_task
+    with P.connection._reraise_as_library_errors():
+  File "/usr/lib/python3.10/contextlib.py", line 153, in __exit__
+    self.gen.throw(typ, value, traceback)
+  File "/home/dastan/Desktop/maker/venv/lib/python3.10/site-packages/kombu/connection.py", line 476, in _reraise_as_library_errors
+    raise ConnectionError(str(exc)) from exc
+kombu.exceptions.OperationalError: Error 111 connecting to localhost:6379. Connection refused.
+ERROR 2024-03-29 08:34:37,814 basehttp "POST /api/v1/bookings/create/ HTTP/1.1" 500 286471
+INFO 2024-03-29 08:35:42,025 basehttp "POST /api/v1/bookings/create/ HTTP/1.1" 201 110
+INFO 2024-03-29 09:02:50,324 autoreload /home/dastan/Desktop/maker/hotel/apps.py changed, reloading.
+INFO 2024-03-29 09:02:51,191 autoreload Watching for file changes with StatReloader
+INFO 2024-03-29 09:03:08,869 autoreload /home/dastan/Desktop/maker/hotel/apps.py changed, reloading.
+INFO 2024-03-29 09:03:09,476 autoreload Watching for file changes with StatReloader
+INFO 2024-03-29 09:03:11,735 autoreload /home/dastan/Desktop/maker/hotel/apps.py changed, reloading.
+INFO 2024-03-29 09:03:12,409 autoreload Watching for file changes with StatReloader
+INFO 2024-03-29 09:03:16,693 autoreload /home/dastan/Desktop/maker/hotel/apps.py changed, reloading.
+INFO 2024-03-29 09:03:17,228 autoreload Watching for file changes with StatReloader
+INFO 2024-03-29 09:03:18,484 autoreload /home/dastan/Desktop/maker/hotel/apps.py changed, reloading.
+INFO 2024-03-29 09:03:19,180 autoreload Watching for file changes with StatReloader
+ERROR 2024-03-29 09:05:40,643 log Internal Server Error: /api/v1/bookings/create/
+Traceback (most recent call last):
+  File "/home/dastan/Desktop/maker/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/dastan/Desktop/maker/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/dastan/Desktop/maker/venv/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "/home/dastan/Desktop/maker/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/dastan/Desktop/maker/venv/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/dastan/Desktop/maker/venv/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/dastan/Desktop/maker/venv/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/dastan/Desktop/maker/venv/lib/python3.10/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/dastan/Desktop/maker/hotel/views.py", line 96, in post
+    serializer.save(user=request.user)
+  File "/home/dastan/Desktop/maker/venv/lib/python3.10/site-packages/rest_framework/serializers.py", line 208, in save
+    self.instance = self.create(validated_data)
+  File "/home/dastan/Desktop/maker/venv/lib/python3.10/site-packages/rest_framework/serializers.py", line 989, in create
+    instance = ModelClass._default_manager.create(**validated_data)
+  File "/home/dastan/Desktop/maker/venv/lib/python3.10/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/dastan/Desktop/maker/venv/lib/python3.10/site-packages/django/db/models/query.py", line 679, in create
+    obj.save(force_insert=True, using=self.db)
+  File "/home/dastan/Desktop/maker/venv/lib/python3.10/site-packages/django/db/models/base.py", line 822, in save
+    self.save_base(
+  File "/home/dastan/Desktop/maker/venv/lib/python3.10/site-packages/django/db/models/base.py", line 924, in save_base
+    post_save.send(
+  File "/home/dastan/Desktop/maker/venv/lib/python3.10/site-packages/django/dispatch/dispatcher.py", line 189, in send
+    response = receiver(signal=self, sender=sender, **named)
+  File "/home/dastan/Desktop/maker/hotel/signals.py", line 12, in send_booking_confirmation_email
+    send_mail(subject, message, from_email=None, recipient_list=recipient_list)
+  File "/home/dastan/Desktop/maker/venv/lib/python3.10/site-packages/django/core/mail/__init__.py", line 88, in send_mail
+    return mail.send()
+  File "/home/dastan/Desktop/maker/venv/lib/python3.10/site-packages/django/core/mail/message.py", line 300, in send
+    return self.get_connection(fail_silently).send_messages([self])
+  File "/home/dastan/Desktop/maker/venv/lib/python3.10/site-packages/django/core/mail/backends/smtp.py", line 128, in send_messages
+    new_conn_created = self.open()
+  File "/home/dastan/Desktop/maker/venv/lib/python3.10/site-packages/django/core/mail/backends/smtp.py", line 86, in open
+    self.connection = self.connection_class(
+  File "/usr/lib/python3.10/smtplib.py", line 255, in __init__
+    (code, msg) = self.connect(host, port)
+  File "/usr/lib/python3.10/smtplib.py", line 341, in connect
+    self.sock = self._get_socket(host, port, self.timeout)
+  File "/usr/lib/python3.10/smtplib.py", line 312, in _get_socket
+    return socket.create_connection((host, port), timeout,
+  File "/usr/lib/python3.10/socket.py", line 824, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+  File "/usr/lib/python3.10/socket.py", line 955, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno -2] Name or service not known
+ERROR 2024-03-29 09:05:40,655 basehttp "POST /api/v1/bookings/create/ HTTP/1.1" 500 180035
+INFO 2024-03-29 09:06:17,457 autoreload Watching for file changes with StatReloader
+ERROR 2024-03-29 09:06:21,381 log Internal Server Error: /api/v1/bookings/create/
+Traceback (most recent call last):
+  File "/home/dastan/Desktop/maker/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/dastan/Desktop/maker/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/dastan/Desktop/maker/venv/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "/home/dastan/Desktop/maker/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/dastan/Desktop/maker/venv/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/dastan/Desktop/maker/venv/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/dastan/Desktop/maker/venv/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/dastan/Desktop/maker/venv/lib/python3.10/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/dastan/Desktop/maker/hotel/views.py", line 96, in post
+    serializer.save(user=request.user)
+  File "/home/dastan/Desktop/maker/venv/lib/python3.10/site-packages/rest_framework/serializers.py", line 208, in save
+    self.instance = self.create(validated_data)
+  File "/home/dastan/Desktop/maker/venv/lib/python3.10/site-packages/rest_framework/serializers.py", line 989, in create
+    instance = ModelClass._default_manager.create(**validated_data)
+  File "/home/dastan/Desktop/maker/venv/lib/python3.10/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/dastan/Desktop/maker/venv/lib/python3.10/site-packages/django/db/models/query.py", line 679, in create
+    obj.save(force_insert=True, using=self.db)
+  File "/home/dastan/Desktop/maker/venv/lib/python3.10/site-packages/django/db/models/base.py", line 822, in save
+    self.save_base(
+  File "/home/dastan/Desktop/maker/venv/lib/python3.10/site-packages/django/db/models/base.py", line 924, in save_base
+    post_save.send(
+  File "/home/dastan/Desktop/maker/venv/lib/python3.10/site-packages/django/dispatch/dispatcher.py", line 189, in send
+    response = receiver(signal=self, sender=sender, **named)
+  File "/home/dastan/Desktop/maker/hotel/signals.py", line 12, in send_booking_confirmation_email
+    send_mail(subject, message, from_email=None, recipient_list=recipient_list)
+  File "/home/dastan/Desktop/maker/venv/lib/python3.10/site-packages/django/core/mail/__init__.py", line 88, in send_mail
+    return mail.send()
+  File "/home/dastan/Desktop/maker/venv/lib/python3.10/site-packages/django/core/mail/message.py", line 300, in send
+    return self.get_connection(fail_silently).send_messages([self])
+  File "/home/dastan/Desktop/maker/venv/lib/python3.10/site-packages/django/core/mail/backends/smtp.py", line 128, in send_messages
+    new_conn_created = self.open()
+  File "/home/dastan/Desktop/maker/venv/lib/python3.10/site-packages/django/core/mail/backends/smtp.py", line 86, in open
+    self.connection = self.connection_class(
+  File "/usr/lib/python3.10/smtplib.py", line 255, in __init__
+    (code, msg) = self.connect(host, port)
+  File "/usr/lib/python3.10/smtplib.py", line 341, in connect
+    self.sock = self._get_socket(host, port, self.timeout)
+  File "/usr/lib/python3.10/smtplib.py", line 312, in _get_socket
+    return socket.create_connection((host, port), timeout,
+  File "/usr/lib/python3.10/socket.py", line 824, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+  File "/usr/lib/python3.10/socket.py", line 955, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno -2] Name or service not known
+ERROR 2024-03-29 09:06:21,383 basehttp "POST /api/v1/bookings/create/ HTTP/1.1" 500 180035
+WARNING 2024-03-29 09:06:33,493 log Bad Request: /api/v1/bookings/create/
+WARNING 2024-03-29 09:06:33,494 basehttp "POST /api/v1/bookings/create/ HTTP/1.1" 400 55
+WARNING 2024-03-29 09:06:43,273 log Bad Request: /api/v1/bookings/create/
+WARNING 2024-03-29 09:06:43,273 basehttp "POST /api/v1/bookings/create/ HTTP/1.1" 400 75
+ERROR 2024-03-29 09:06:55,857 log Internal Server Error: /api/v1/bookings/create/
+Traceback (most recent call last):
+  File "/home/dastan/Desktop/maker/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/dastan/Desktop/maker/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/dastan/Desktop/maker/venv/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "/home/dastan/Desktop/maker/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/dastan/Desktop/maker/venv/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/dastan/Desktop/maker/venv/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/dastan/Desktop/maker/venv/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/dastan/Desktop/maker/venv/lib/python3.10/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/dastan/Desktop/maker/hotel/views.py", line 96, in post
+    serializer.save(user=request.user)
+  File "/home/dastan/Desktop/maker/venv/lib/python3.10/site-packages/rest_framework/serializers.py", line 208, in save
+    self.instance = self.create(validated_data)
+  File "/home/dastan/Desktop/maker/venv/lib/python3.10/site-packages/rest_framework/serializers.py", line 989, in create
+    instance = ModelClass._default_manager.create(**validated_data)
+  File "/home/dastan/Desktop/maker/venv/lib/python3.10/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/dastan/Desktop/maker/venv/lib/python3.10/site-packages/django/db/models/query.py", line 679, in create
+    obj.save(force_insert=True, using=self.db)
+  File "/home/dastan/Desktop/maker/venv/lib/python3.10/site-packages/django/db/models/base.py", line 822, in save
+    self.save_base(
+  File "/home/dastan/Desktop/maker/venv/lib/python3.10/site-packages/django/db/models/base.py", line 924, in save_base
+    post_save.send(
+  File "/home/dastan/Desktop/maker/venv/lib/python3.10/site-packages/django/dispatch/dispatcher.py", line 189, in send
+    response = receiver(signal=self, sender=sender, **named)
+  File "/home/dastan/Desktop/maker/hotel/signals.py", line 12, in send_booking_confirmation_email
+    send_mail(subject, message, from_email=None, recipient_list=recipient_list)
+  File "/home/dastan/Desktop/maker/venv/lib/python3.10/site-packages/django/core/mail/__init__.py", line 88, in send_mail
+    return mail.send()
+  File "/home/dastan/Desktop/maker/venv/lib/python3.10/site-packages/django/core/mail/message.py", line 300, in send
+    return self.get_connection(fail_silently).send_messages([self])
+  File "/home/dastan/Desktop/maker/venv/lib/python3.10/site-packages/django/core/mail/backends/smtp.py", line 128, in send_messages
+    new_conn_created = self.open()
+  File "/home/dastan/Desktop/maker/venv/lib/python3.10/site-packages/django/core/mail/backends/smtp.py", line 86, in open
+    self.connection = self.connection_class(
+  File "/usr/lib/python3.10/smtplib.py", line 255, in __init__
+    (code, msg) = self.connect(host, port)
+  File "/usr/lib/python3.10/smtplib.py", line 341, in connect
+    self.sock = self._get_socket(host, port, self.timeout)
+  File "/usr/lib/python3.10/smtplib.py", line 312, in _get_socket
+    return socket.create_connection((host, port), timeout,
+  File "/usr/lib/python3.10/socket.py", line 824, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+  File "/usr/lib/python3.10/socket.py", line 955, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno -2] Name or service not known
+ERROR 2024-03-29 09:06:55,858 basehttp "POST /api/v1/bookings/create/ HTTP/1.1" 500 180035
+ERROR 2024-03-29 09:07:07,329 log Internal Server Error: /api/v1/bookings/create/
+Traceback (most recent call last):
+  File "/home/dastan/Desktop/maker/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/dastan/Desktop/maker/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/dastan/Desktop/maker/venv/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "/home/dastan/Desktop/maker/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/dastan/Desktop/maker/venv/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/dastan/Desktop/maker/venv/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/dastan/Desktop/maker/venv/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/dastan/Desktop/maker/venv/lib/python3.10/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/dastan/Desktop/maker/hotel/views.py", line 96, in post
+    serializer.save(user=request.user)
+  File "/home/dastan/Desktop/maker/venv/lib/python3.10/site-packages/rest_framework/serializers.py", line 208, in save
+    self.instance = self.create(validated_data)
+  File "/home/dastan/Desktop/maker/venv/lib/python3.10/site-packages/rest_framework/serializers.py", line 989, in create
+    instance = ModelClass._default_manager.create(**validated_data)
+  File "/home/dastan/Desktop/maker/venv/lib/python3.10/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/dastan/Desktop/maker/venv/lib/python3.10/site-packages/django/db/models/query.py", line 679, in create
+    obj.save(force_insert=True, using=self.db)
+  File "/home/dastan/Desktop/maker/venv/lib/python3.10/site-packages/django/db/models/base.py", line 822, in save
+    self.save_base(
+  File "/home/dastan/Desktop/maker/venv/lib/python3.10/site-packages/django/db/models/base.py", line 924, in save_base
+    post_save.send(
+  File "/home/dastan/Desktop/maker/venv/lib/python3.10/site-packages/django/dispatch/dispatcher.py", line 189, in send
+    response = receiver(signal=self, sender=sender, **named)
+  File "/home/dastan/Desktop/maker/hotel/signals.py", line 12, in send_booking_confirmation_email
+    send_mail(subject, message, from_email=None, recipient_list=recipient_list)
+  File "/home/dastan/Desktop/maker/venv/lib/python3.10/site-packages/django/core/mail/__init__.py", line 88, in send_mail
+    return mail.send()
+  File "/home/dastan/Desktop/maker/venv/lib/python3.10/site-packages/django/core/mail/message.py", line 300, in send
+    return self.get_connection(fail_silently).send_messages([self])
+  File "/home/dastan/Desktop/maker/venv/lib/python3.10/site-packages/django/core/mail/backends/smtp.py", line 128, in send_messages
+    new_conn_created = self.open()
+  File "/home/dastan/Desktop/maker/venv/lib/python3.10/site-packages/django/core/mail/backends/smtp.py", line 86, in open
+    self.connection = self.connection_class(
+  File "/usr/lib/python3.10/smtplib.py", line 255, in __init__
+    (code, msg) = self.connect(host, port)
+  File "/usr/lib/python3.10/smtplib.py", line 341, in connect
+    self.sock = self._get_socket(host, port, self.timeout)
+  File "/usr/lib/python3.10/smtplib.py", line 312, in _get_socket
+    return socket.create_connection((host, port), timeout,
+  File "/usr/lib/python3.10/socket.py", line 824, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+  File "/usr/lib/python3.10/socket.py", line 955, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno -2] Name or service not known
+ERROR 2024-03-29 09:07:07,330 basehttp "POST /api/v1/bookings/create/ HTTP/1.1" 500 180035
+ERROR 2024-03-29 09:07:58,790 log Internal Server Error: /api/v1/bookings/create/
+Traceback (most recent call last):
+  File "/home/dastan/Desktop/maker/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/dastan/Desktop/maker/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/dastan/Desktop/maker/venv/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "/home/dastan/Desktop/maker/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/dastan/Desktop/maker/venv/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/dastan/Desktop/maker/venv/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/dastan/Desktop/maker/venv/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/dastan/Desktop/maker/venv/lib/python3.10/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/dastan/Desktop/maker/hotel/views.py", line 96, in post
+    serializer.save(user=request.user)
+  File "/home/dastan/Desktop/maker/venv/lib/python3.10/site-packages/rest_framework/serializers.py", line 208, in save
+    self.instance = self.create(validated_data)
+  File "/home/dastan/Desktop/maker/venv/lib/python3.10/site-packages/rest_framework/serializers.py", line 989, in create
+    instance = ModelClass._default_manager.create(**validated_data)
+  File "/home/dastan/Desktop/maker/venv/lib/python3.10/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/dastan/Desktop/maker/venv/lib/python3.10/site-packages/django/db/models/query.py", line 679, in create
+    obj.save(force_insert=True, using=self.db)
+  File "/home/dastan/Desktop/maker/venv/lib/python3.10/site-packages/django/db/models/base.py", line 822, in save
+    self.save_base(
+  File "/home/dastan/Desktop/maker/venv/lib/python3.10/site-packages/django/db/models/base.py", line 924, in save_base
+    post_save.send(
+  File "/home/dastan/Desktop/maker/venv/lib/python3.10/site-packages/django/dispatch/dispatcher.py", line 189, in send
+    response = receiver(signal=self, sender=sender, **named)
+  File "/home/dastan/Desktop/maker/hotel/signals.py", line 12, in send_booking_confirmation_email
+    send_mail(subject, message, from_email=None, recipient_list=recipient_list)
+  File "/home/dastan/Desktop/maker/venv/lib/python3.10/site-packages/django/core/mail/__init__.py", line 88, in send_mail
+    return mail.send()
+  File "/home/dastan/Desktop/maker/venv/lib/python3.10/site-packages/django/core/mail/message.py", line 300, in send
+    return self.get_connection(fail_silently).send_messages([self])
+  File "/home/dastan/Desktop/maker/venv/lib/python3.10/site-packages/django/core/mail/backends/smtp.py", line 128, in send_messages
+    new_conn_created = self.open()
+  File "/home/dastan/Desktop/maker/venv/lib/python3.10/site-packages/django/core/mail/backends/smtp.py", line 86, in open
+    self.connection = self.connection_class(
+  File "/usr/lib/python3.10/smtplib.py", line 255, in __init__
+    (code, msg) = self.connect(host, port)
+  File "/usr/lib/python3.10/smtplib.py", line 341, in connect
+    self.sock = self._get_socket(host, port, self.timeout)
+  File "/usr/lib/python3.10/smtplib.py", line 312, in _get_socket
+    return socket.create_connection((host, port), timeout,
+  File "/usr/lib/python3.10/socket.py", line 824, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+  File "/usr/lib/python3.10/socket.py", line 955, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno -2] Name or service not known
+ERROR 2024-03-29 09:07:58,791 basehttp "POST /api/v1/bookings/create/ HTTP/1.1" 500 180035
+INFO 2024-03-29 09:08:47,304 basehttp "GET /api/v1/bookings/ HTTP/1.1" 200 427
+INFO 2024-03-29 09:19:14,117 autoreload Watching for file changes with StatReloader
+INFO 2024-03-29 09:19:40,375 basehttp "GET /api/v1/booking-history/ HTTP/1.1" 200 52
+WARNING 2024-03-29 09:19:46,478 log Method Not Allowed: /api/v1/booking-history/
+WARNING 2024-03-29 09:19:46,479 basehttp "POST /api/v1/booking-history/ HTTP/1.1" 405 41
+INFO 2024-03-29 09:19:56,026 basehttp "GET /api/v1/booking-history/ HTTP/1.1" 200 52
+ERROR 2024-03-29 09:21:32,474 log Internal Server Error: /api/v1/bookings/create/
+Traceback (most recent call last):
+  File "/home/dastan/Desktop/maker/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/dastan/Desktop/maker/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/dastan/Desktop/maker/venv/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "/home/dastan/Desktop/maker/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/dastan/Desktop/maker/venv/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/dastan/Desktop/maker/venv/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/dastan/Desktop/maker/venv/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/dastan/Desktop/maker/venv/lib/python3.10/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/dastan/Desktop/maker/hotel/views.py", line 96, in post
+    serializer.save(user=request.user)
+  File "/home/dastan/Desktop/maker/venv/lib/python3.10/site-packages/rest_framework/serializers.py", line 208, in save
+    self.instance = self.create(validated_data)
+  File "/home/dastan/Desktop/maker/venv/lib/python3.10/site-packages/rest_framework/serializers.py", line 989, in create
+    instance = ModelClass._default_manager.create(**validated_data)
+  File "/home/dastan/Desktop/maker/venv/lib/python3.10/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/dastan/Desktop/maker/venv/lib/python3.10/site-packages/django/db/models/query.py", line 679, in create
+    obj.save(force_insert=True, using=self.db)
+  File "/home/dastan/Desktop/maker/venv/lib/python3.10/site-packages/django/db/models/base.py", line 822, in save
+    self.save_base(
+  File "/home/dastan/Desktop/maker/venv/lib/python3.10/site-packages/django/db/models/base.py", line 924, in save_base
+    post_save.send(
+  File "/home/dastan/Desktop/maker/venv/lib/python3.10/site-packages/django/dispatch/dispatcher.py", line 189, in send
+    response = receiver(signal=self, sender=sender, **named)
+  File "/home/dastan/Desktop/maker/hotel/signals.py", line 12, in send_booking_confirmation_email
+    send_mail(subject, message, from_email=None, recipient_list=recipient_list)
+  File "/home/dastan/Desktop/maker/venv/lib/python3.10/site-packages/django/core/mail/__init__.py", line 88, in send_mail
+    return mail.send()
+  File "/home/dastan/Desktop/maker/venv/lib/python3.10/site-packages/django/core/mail/message.py", line 300, in send
+    return self.get_connection(fail_silently).send_messages([self])
+  File "/home/dastan/Desktop/maker/venv/lib/python3.10/site-packages/django/core/mail/backends/smtp.py", line 128, in send_messages
+    new_conn_created = self.open()
+  File "/home/dastan/Desktop/maker/venv/lib/python3.10/site-packages/django/core/mail/backends/smtp.py", line 86, in open
+    self.connection = self.connection_class(
+  File "/usr/lib/python3.10/smtplib.py", line 255, in __init__
+    (code, msg) = self.connect(host, port)
+  File "/usr/lib/python3.10/smtplib.py", line 341, in connect
+    self.sock = self._get_socket(host, port, self.timeout)
+  File "/usr/lib/python3.10/smtplib.py", line 312, in _get_socket
+    return socket.create_connection((host, port), timeout,
+  File "/usr/lib/python3.10/socket.py", line 824, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+  File "/usr/lib/python3.10/socket.py", line 955, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno -2] Name or service not known
+ERROR 2024-03-29 09:21:32,479 basehttp "POST /api/v1/bookings/create/ HTTP/1.1" 500 180395
+INFO 2024-03-29 11:16:00,388 autoreload Watching for file changes with StatReloader
+ERROR 2024-03-29 11:16:04,039 log Internal Server Error: /api/v1/bookings/create/
+Traceback (most recent call last):
+  File "/home/dastan/Desktop/maker/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/dastan/Desktop/maker/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/dastan/Desktop/maker/venv/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "/home/dastan/Desktop/maker/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/dastan/Desktop/maker/venv/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/dastan/Desktop/maker/venv/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/dastan/Desktop/maker/venv/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/dastan/Desktop/maker/venv/lib/python3.10/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/dastan/Desktop/maker/hotel/views.py", line 96, in post
+    serializer.save(user=request.user)
+  File "/home/dastan/Desktop/maker/venv/lib/python3.10/site-packages/rest_framework/serializers.py", line 208, in save
+    self.instance = self.create(validated_data)
+  File "/home/dastan/Desktop/maker/venv/lib/python3.10/site-packages/rest_framework/serializers.py", line 989, in create
+    instance = ModelClass._default_manager.create(**validated_data)
+  File "/home/dastan/Desktop/maker/venv/lib/python3.10/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/dastan/Desktop/maker/venv/lib/python3.10/site-packages/django/db/models/query.py", line 679, in create
+    obj.save(force_insert=True, using=self.db)
+  File "/home/dastan/Desktop/maker/venv/lib/python3.10/site-packages/django/db/models/base.py", line 822, in save
+    self.save_base(
+  File "/home/dastan/Desktop/maker/venv/lib/python3.10/site-packages/django/db/models/base.py", line 924, in save_base
+    post_save.send(
+  File "/home/dastan/Desktop/maker/venv/lib/python3.10/site-packages/django/dispatch/dispatcher.py", line 189, in send
+    response = receiver(signal=self, sender=sender, **named)
+  File "/home/dastan/Desktop/maker/hotel/signals.py", line 12, in send_booking_confirmation_email
+    send_mail(subject, message, from_email=None, recipient_list=recipient_list)
+  File "/home/dastan/Desktop/maker/venv/lib/python3.10/site-packages/django/core/mail/__init__.py", line 88, in send_mail
+    return mail.send()
+  File "/home/dastan/Desktop/maker/venv/lib/python3.10/site-packages/django/core/mail/message.py", line 300, in send
+    return self.get_connection(fail_silently).send_messages([self])
+  File "/home/dastan/Desktop/maker/venv/lib/python3.10/site-packages/django/core/mail/backends/smtp.py", line 128, in send_messages
+    new_conn_created = self.open()
+  File "/home/dastan/Desktop/maker/venv/lib/python3.10/site-packages/django/core/mail/backends/smtp.py", line 86, in open
+    self.connection = self.connection_class(
+  File "/usr/lib/python3.10/smtplib.py", line 255, in __init__
+    (code, msg) = self.connect(host, port)
+  File "/usr/lib/python3.10/smtplib.py", line 341, in connect
+    self.sock = self._get_socket(host, port, self.timeout)
+  File "/usr/lib/python3.10/smtplib.py", line 312, in _get_socket
+    return socket.create_connection((host, port), timeout,
+  File "/usr/lib/python3.10/socket.py", line 824, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+  File "/usr/lib/python3.10/socket.py", line 955, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno -2] Name or service not known
+ERROR 2024-03-29 11:16:04,050 basehttp "POST /api/v1/bookings/create/ HTTP/1.1" 500 180395
+INFO 2024-03-29 11:16:27,696 autoreload /home/dastan/Desktop/maker/config/settings.py changed, reloading.
+Watching for file changes with StatReloader
+/home/dastan/Desktop/maker/config/settings.py changed, reloading.

@@ -1,5 +1,5 @@
 import logging
-from rest_framework import generics, permissions, status
+from rest_framework import generics, permissions, status, pagination
 from django_filters.rest_framework import DjangoFilterBackend
 from .models import *
 from .serializers import *
@@ -7,6 +7,8 @@ from .permissions import IsOwnerOrSuperuser, ReadOnly
 from rest_framework.response import Response
 from functools import wraps
 from django.shortcuts import get_object_or_404
+from rest_framework.parsers import MultiPartParser, FormParser
+from hotel.tasks.task import send_email_task
 
 
 logger = logging.getLogger(__name__)
@@ -24,6 +26,7 @@ class HotelListAPIView(generics.ListAPIView):
     serializer_class = HotelSerializer
     filter_backends = [DjangoFilterBackend]
     filterset_fields = ['name', 'stars']
+    pagination_class = pagination.PageNumberPagination
 
     # @log_request
     # def list(self, request, *args, **kwargs):
@@ -34,10 +37,15 @@ class HotelCreateAPIView(generics.CreateAPIView):
     queryset = Hotel.objects.all()
     serializer_class = HotelSerializer
     permission_classes = [IsOwnerOrSuperuser]
+    parser_classes = [MultiPartParser, FormParser] 
 
     @log_request
-    def list(self, request, *args, **kwargs):
-        return super().list(request, *args, **kwargs)
+    def post(self, request, *args, **kwargs):
+        serializer = self.get_serializer(data=request.data)
+        if serializer.is_valid():
+            serializer.save(owner=request.user)  
+            return Response(serializer.data, status=status.HTTP_201_CREATED)
+        return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
 
 
 class RoomListAPIView(generics.ListAPIView):
@@ -46,6 +54,7 @@ class RoomListAPIView(generics.ListAPIView):
     permission_classes = [permissions.AllowAny]
     filter_backends = [DjangoFilterBackend]
     filterset_fields = ['hotel__name']
+    pagination_class = pagination.PageNumberPagination
 
     @log_request
     def list(self, request, *args, **kwargs):
@@ -67,7 +76,8 @@ class BookingListAPIView(generics.ListAPIView):
     serializer_class = BookingSerializer
     permission_classes = [permissions.AllowAny]
     filter_backends = [DjangoFilterBackend]
-    # filterset_fields = ['']
+    pagination_class = pagination.PageNumberPagination
+    filterset_fields = ['hotel']
 
     @log_request
     def list(self, request, *args, **kwargs):
@@ -79,9 +89,22 @@ class BookingCreateAPIView(generics.CreateAPIView):
     serializer_class = BookingSerializer
     permission_classes = [permissions.IsAuthenticated]
 
+
+    def post(self, request, *args, **kwargs):
+        serializer = self.get_serializer(data=request.data)
+        if serializer.is_valid():
+            subject = 'Booking Confirmation'
+            message = 'Your booking has been confirmed.'
+            recipient_list = [request.user.email]
+            send_email_task.delay(subject, message, recipient_list)  
+            return Response(serializer.data, status=status.HTTP_201_CREATED)
+        return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
+    
+    
     @log_request
     def list(self, request, *args, **kwargs):
         return super().list(request, *args, **kwargs)
+
 
 
 class ReviewListCreateAPIView(generics.ListCreateAPIView):
@@ -188,6 +211,7 @@ class HotelLikeDeleteAPIView(generics.DestroyAPIView):
 
 class RecommendedHotelListAPIView(generics.ListAPIView):
     serializer_class = HotelSerializer
+    pagination_class = pagination.PageNumberPagination
 
     def get_queryset(self):
         return Hotel.objects.order_by('-like_count')
@@ -195,3 +219,9 @@ class RecommendedHotelListAPIView(generics.ListAPIView):
     @log_request
     def list(self, request, *args, **kwargs):
         return super().list(request, *args, **kwargs)
+    
+class BookingHistoryListAPIView(generics.ListAPIView):
+    queryset = BookingHistory.objects.all()
+    serializer_class = BookingHistorySerializer
+    permission_classes = [permissions.AllowAny]
+    pagination_class = pagination.PageNumberPagination

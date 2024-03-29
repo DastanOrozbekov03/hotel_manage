@@ -41,6 +41,8 @@ INSTALLED_APPS = [
     'rest_framework.authtoken',
     'django_filters',
     'drf_yasg',
+    'django_celery_beat',
+    'django_celery_results',
     # apps
     'account',
     'hotel'
@@ -133,63 +135,31 @@ STATIC_URL = 'static/'
 # https://docs.djangoproject.com/en/5.0/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+
 REST_FRAMEWORK = {
     'DEFAULT_AUTHENTICATION_CLASSES':['rest_framework.authentication.TokenAuthentication'],
     'DEFAULT_PAGINATION_CLASS': 'rest_framework.pagination.PageNumberPagination', 'PAGE_SIZE': 3
 }
-EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend' 
-EMAIL_HOST = 'smtp.gmail.com'
-DEFAULT_FROM_EMAIL = EMAIL_HOST_USER = config('EMAIL_HOST_USER')
-EMAIL_HOST_PASSWORD = config('EMAIL_HOST_PASSWORD')
-EMAIL_PORT = 587
-EMAIL_USE_TLS = True
-ACTIVATE_USERS_EMAIL = True
-EMAIL_USE_SSL = False
 
 
-LOGGING = {
-    "version": 1,
-    "disable_existing_loggers": False,
-    "handlers": {
-        "console": {
-            "class": "logging.StreamHandler",
-        },
-    },
-    "root": {
-        "handlers": ["console"],
-        "level": "WARNING",
-    },
-    "loggers": {
-        "django": {
-            "handlers": ["console"],
-            "level": os.getenv("DJANGO_LOG_LEVEL", "INFO"),
-            "propagate": False,
-        },
-    },
-}
 
 # LOGGING = {
 #     "version": 1,
 #     "disable_existing_loggers": False,
 #     "handlers": {
-#         "console": {
-#             "class": "logging.StreamHandler",
-#         },
 #         "file": {
+#             "level": "INFO",
 #             "class": "logging.FileHandler",
-#             "filename": "/home/dastan@dastan-Vivobook-ASUSLaptop-X1402ZA-X1402ZA/Desktop/maker/info.log",  # Замените на путь к вашему файлу
+#             "filename": "/home/dastan/Desktop/maker/info.log/logs.txt",  
 #             "formatter": "verbose",
 #         },
 #     },
-#     "root": {
-#         "handlers": ["console", "file"],
-#         "level": "WARNING",
-#     },
 #     "loggers": {
 #         "django": {
-#             "handlers": ["console", "file"],
-#             "level": os.getenv("DJANGO_LOG_LEVEL", "INFO"),
-#             "propagate": False,
+#             "handlers": ["file"],
+#             "level": "INFO",
+#             "propagate": True,
 #         },
 #     },
 #     "formatters": {
@@ -199,3 +169,18 @@ LOGGING = {
 #         },
 #     },
 # }
+
+# CELERY_BROKER_URL = 'redis://localhost:6379/0'
+# CELERY_RESULT_BACKEND = 'redis://localhost:6379/0'
+# CELERY_ACCEPT_CONTENT = ['json']
+# CELERY_TASK_SERIALIZER = 'json'
+# CELERY_RESULT_SERIALIZER = 'json'
+# CELERY_TIMEZONE = 'UTC'
+
+# Настройки почты
+EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
+EMAIL_HOST = 'smtp.example.com'
+EMAIL_PORT = 587
+EMAIL_HOST_USER = 'cluffymonkey56@gmail.com'
+EMAIL_HOST_PASSWORD = 'riasdasi03'
+EMAIL_USE_TLS = True
