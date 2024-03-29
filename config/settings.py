@@ -144,38 +144,38 @@ REST_FRAMEWORK = {
 
 
 
-# LOGGING = {
-#     "version": 1,
-#     "disable_existing_loggers": False,
-#     "handlers": {
-#         "file": {
-#             "level": "INFO",
-#             "class": "logging.FileHandler",
-#             "filename": "/home/dastan/Desktop/maker/info.log/logs.txt",  
-#             "formatter": "verbose",
-#         },
-#     },
-#     "loggers": {
-#         "django": {
-#             "handlers": ["file"],
-#             "level": "INFO",
-#             "propagate": True,
-#         },
-#     },
-#     "formatters": {
-#         "verbose": {
-#             "format": "{levelname} {asctime} {module} {message}",
-#             "style": "{",
-#         },
-#     },
-# }
+LOGGING = {
+    "version": 1,
+    "disable_existing_loggers": False,
+    "handlers": {
+        "file": {
+            "level": "INFO",
+            "class": "logging.FileHandler",
+            "filename": "/home/dastan/Desktop/maker/info.log/logs.txt",  
+            "formatter": "verbose",
+        },
+    },
+    "loggers": {
+        "django": {
+            "handlers": ["file"],
+            "level": "INFO",
+            "propagate": True,
+        },
+    },
+    "formatters": {
+        "verbose": {
+            "format": "{levelname} {asctime} {module} {message}",
+            "style": "{",
+        },
+    },
+}
 
-# CELERY_BROKER_URL = 'redis://localhost:6379/0'
-# CELERY_RESULT_BACKEND = 'redis://localhost:6379/0'
-# CELERY_ACCEPT_CONTENT = ['json']
-# CELERY_TASK_SERIALIZER = 'json'
-# CELERY_RESULT_SERIALIZER = 'json'
-# CELERY_TIMEZONE = 'UTC'
+CELERY_BROKER_URL = 'redis://localhost:6379/0'
+CELERY_RESULT_BACKEND = 'redis://localhost:6379/0'
+CELERY_ACCEPT_CONTENT = ['json']
+CELERY_TASK_SERIALIZER = 'json'
+CELERY_RESULT_SERIALIZER = 'json'
+CELERY_TIMEZONE = 'UTC'
 
 # Настройки почты
 EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
